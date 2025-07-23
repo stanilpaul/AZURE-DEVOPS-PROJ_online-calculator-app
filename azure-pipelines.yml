@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'HuzefAI-MCT'
+    azureSubscription: 'AzureDevOps-ServiceConnection'
     appType: 'webApp'
     appName: 'devopspipelineapp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
