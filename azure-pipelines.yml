@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'AzureDevOps-ServiceConnection'
+    azureSubscription: 'azuredevops-serviceendpoint'
     appType: 'webApp'
-    appName: 'devopspipelineapp'
+    appName: 'mywebapp25'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
