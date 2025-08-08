@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Azure Devops Calculator App'
-    appType: 'webApp'
+    azureSubscription: 'my-app-calculator'
+    appType: 'webAppWindows'
     appName: 'paulstanilcalculator'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
