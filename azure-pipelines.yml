@@ -12,5 +12,5 @@ steps:
   inputs:
     azureSubscription: 'Azure Devops Calculator App'
     appType: 'webApp'
-    appName: 'calculatorpaul'
+    appName: 'paulstanilcalculator'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
